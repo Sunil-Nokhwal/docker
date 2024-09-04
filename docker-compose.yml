@@ -4,11 +4,11 @@ services:
   telegram-bot:
     build: .
     environment:
-      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - TELEGRAM_BOT_TOKEN=6991697056:AAGwBuc9l1hY4l_YFVHBLd60nMMca3kuBoA
       - OTHER_ENV_VAR=${OTHER_ENV_VAR}
     # Uncomment the line below if you want to map a local directory to the container
     # volumes:
     #   - .:/app
     # Uncomment the line below if you want to expose a port (for webhooks, etc.)
-    # ports:
+    # ports:8080
     #   - "5000:5000"

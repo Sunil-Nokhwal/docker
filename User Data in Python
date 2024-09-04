@@ -1,0 +1,10 @@
+import json
+
+def load_user_data(filename='user_data.json'):
+    with open(filename, 'r') as file:
+        return json.load(file)
+
+user_data = load_user_data()
+user_id = "123456789"
+user_info = user_data.get(user_id, {})
+print(user_info)

@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Set environment variables (replace these with your actual values)
-ENV TELEGRAM_BOT_TOKEN=your-telegram-bot-token
+ENV TELEGRAM_BOT_TOKEN=6991697056:AAGwBuc9l1hY4l_YFVHBLd60nMMca3kuBoA
 ENV OTHER_ENV_VAR=value
 
 # Command to run the bot

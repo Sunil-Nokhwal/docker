@@ -1,0 +1,8 @@
+import json
+
+def load_config(filename='config.json'):
+    with open(filename, 'r') as file:
+        return json.load(file)
+
+config = load_config()
+bot_token = config['telegram_bot_token']

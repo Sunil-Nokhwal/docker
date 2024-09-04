@@ -1,0 +1,9 @@
+{
+  "telegram_bot_token":"6991697056:AAGwBuc9l1hY4l_YFVHBLd60nMMca3kuBoA",
+  "admin_users": [
+    "user1_id",
+    "user2_id"
+  ],
+  "default_language": "en",
+  "welcome_message": "Welcome to the bot!"
+}

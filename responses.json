@@ -1,0 +1,16 @@
+{
+  "start": {
+    "text": "Hello! I'm your friendly bot. How can I assist you today?",
+    "keyboard": [
+      ["Help", "Settings"],
+      ["Contact Us"]
+    ]
+  },
+  "help": {
+    "text": "Here are some things you can ask me...",
+    "keyboard": [
+      ["General Info", "FAQ"],
+      ["Back"]
+    ]
+  }
+}

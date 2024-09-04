@@ -1,0 +1,18 @@
+{
+  "123456789": {
+    "name": "John Doe",
+    "language": "en",
+    "preferences": {
+      "theme": "dark",
+      "notifications": true
+    }
+  },
+  "987654321": {
+    "name": "Jane Smith",
+    "language": "es",
+    "preferences": {
+      "theme": "light",
+      "notifications": false
+    }
+  }
+}
